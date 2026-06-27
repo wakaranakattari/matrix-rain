@@ -1,0 +1,10 @@
+[package]
+name = "matrix_rain"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.103"
+crossterm = "0.29.0"
+rand = { version = "0.9.2", features = ["small_rng"] }
+ratatui = "0.30.2"
